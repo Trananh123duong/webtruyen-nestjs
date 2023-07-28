@@ -18,7 +18,7 @@ import { Comment } from './entity/comment.entity';
 import { Chapter } from './entity/chapter.entity';
 import { ResponseInterceptor } from './common/interceptors/response.interceptor';
 import { APP_INTERCEPTOR } from '@nestjs/core';
-// import { CrawlModule } from './crawler/crawl.module';
+import { CrawlModule } from './crawler/crawl.module';
 
 @Module({
   imports: [
@@ -39,7 +39,7 @@ import { APP_INTERCEPTOR } from '@nestjs/core';
     FavoriteModule,
     CommentModule,
     ChapterModule,
-    // CrawlModule,
+    CrawlModule,
   ],
   controllers: [AppController],
   providers: [
