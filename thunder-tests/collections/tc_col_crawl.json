@@ -1,0 +1,23 @@
+{
+    "_id": "4deb804c-388a-4b73-8c6e-5acca0d48403",
+    "colName": "crawl",
+    "created": "2023-07-28T07:16:40.752Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0bb1f89b-69e1-4f5d-b177-0173fb44f903",
+            "colId": "4deb804c-388a-4b73-8c6e-5acca0d48403",
+            "containerId": "",
+            "name": "truyen chu",
+            "url": "http://localhost:3000/truyenchu",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-07-28T07:16:46.101Z",
+            "modified": "2023-07-28T07:17:27.630Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
